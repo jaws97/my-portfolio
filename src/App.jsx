@@ -3,7 +3,7 @@ import {
   Map as MapIcon, Scroll, Compass as CompassIcon, Feather, Crosshair, Mountain, Gem, 
   Ship, Anchor, Link as LinkIcon, List, MapPin, Tent, Castle, Landmark, 
   Cpu, Globe, Code, Menu, X, BookOpen, Trophy, Star, Github, Linkedin, 
-  Hammer, Shield, Zap
+  Hammer, Shield, Zap, Download
 } from 'lucide-react';
 import profilePic from './assets/portfolio-pic.png';
 
@@ -264,6 +264,27 @@ const Overview = () => (
               <div className="p-2 bg-[#2c241b] text-[#f3e9d2] rounded-full"><Scroll size={16} /></div>
               <span>Exp: 6+ Years</span>
            </div>
+           <div className="pt-8 flex flex-col md:items-start items-center">
+           <a 
+             href="./assets/Arokia_resume.pdf" 
+             download="Arokia Lijas Resume.pdf"
+             className="group relative inline-flex items-center gap-3 bg-[#8b0000] text-[#eaddcf] px-8 py-4 font-rye text-xl tracking-wider shadow-lg hover:bg-[#7a0000] transition-all hover:-translate-y-1"
+           >
+              {/* Dashed Border Overlay */}
+              <div className="absolute inset-1 border border-dashed border-[#eaddcf]/50"></div>
+              {/* Corner Screws */}
+              <div className="absolute top-1 left-1 w-1 h-1 bg-[#eaddcf] rounded-full"></div>
+              <div className="absolute top-1 right-1 w-1 h-1 bg-[#eaddcf] rounded-full"></div>
+              <div className="absolute bottom-1 left-1 w-1 h-1 bg-[#eaddcf] rounded-full"></div>
+              <div className="absolute bottom-1 right-1 w-1 h-1 bg-[#eaddcf] rounded-full"></div>
+              
+              <Download size={22} />
+              <span>Download Dossier</span>
+           </a>
+           <div className="mt-2 text-xs font-im-fell text-[#8b0000] tracking-widest uppercase opacity-70">
+              * Official Personnel Records
+           </div>
+        </div>
 
            <div className="ml-auto mt-4 md:mt-0 font-caveat text-3xl text-[#8b0000] rotate-[-5deg] opacity-80">
               Arokia L.
