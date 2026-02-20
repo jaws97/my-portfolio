@@ -582,11 +582,11 @@ const Arsenal = () => {
       icon: <Anchor size={24} className="text-[#8b0000]" />,
       desc: "Server & Infrastructure",
       skills: [
-        { name: "NodeJS", level: 4 },
-        { name: "Python", level: 3 },
+        { name: "NodeJS", level: 5 },
+        { name: "Python", level: 5 },
         { name: "NestJS", level: 4 },
         { name: "PostgreSQL", level: 4 },
-        { name: "AWS", level: 3 },
+        { name: "AWS", level: 4 },
         { name: "Docker", level: 3 },
       ]
     },
