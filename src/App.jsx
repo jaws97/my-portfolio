@@ -6,7 +6,8 @@ import {
   Hammer, Shield, Zap, Download
 } from 'lucide-react';
 import profilePic from './assets/portfolio-pic.png';
-import resume from './assets/Arokia_resume.pdf';
+// Use the exact filename casing as tracked in git (case-sensitive on build servers)
+import resume from './assets/Arokia_Lijas_Resume.pdf';
 
 // --- Utility Components ---
 
