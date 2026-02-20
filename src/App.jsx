@@ -6,6 +6,7 @@ import {
   Hammer, Shield, Zap, Download
 } from 'lucide-react';
 import profilePic from './assets/portfolio-pic.png';
+import resume from './assets/Arokia_resume.pdf';
 
 // --- Utility Components ---
 
@@ -266,7 +267,7 @@ const Overview = () => (
            </div>
            <div className="pt-8 flex flex-col md:items-start items-center">
            <a 
-             href="./assets/Arokia_resume.pdf" 
+             href={resume}
              download="Arokia Lijas Resume.pdf"
              className="group relative inline-flex items-center gap-3 bg-[#8b0000] text-[#eaddcf] px-8 py-4 font-rye text-xl tracking-wider shadow-lg hover:bg-[#7a0000] transition-all hover:-translate-y-1"
            >
